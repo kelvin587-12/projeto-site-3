@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Voluntário</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ 
+    <header>
+        <h1>Área do Voluntário</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="admin.html">Área do Administrador</a>
+            <a href="voluntario.html">Área do Voluntário</a>
+            <a href="formulario.html">cadastro</a>
+        </nav>
+        <main>
+    <nav>
+      <a href="#" onclick="mostrarSecao('perfil')">Meu Perfil</a> |
+      <a href="#" onclick="mostrarSecao('tarefas')">Tarefas</a> |
+      <a href="#" onclick="mostrarSecao('mensagens')">Mensagens</a>
+    </nav>
+    <div id="conteudo"></div>
+  </main>
+
+    </header>
+
+    <main>
+        <section class="oportunidades">
+            <h2>Oportunidades de Voluntariado</h2>
+            <ul>
+                <li>Projeto "Alimentar Esperança" – Coleta de alimentos</li>
+                <li>Projeto "Educar é Viver" – Aulas de reforço escolar</li>
+                <li>Projeto "Saúde para Todos" – Campanhas de saúde comunitária</li>
+            </ul>
+        </section>
+
+        <section class="candidatar">
+            <h2>Inscreva-se em um Projeto</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="projeto">Escolha o projeto:</label>
+                <select id="projeto" name="projeto">
+                    <option>Alimentar Esperança</option>
+                    <option>Educar é Viver</option>
+                    <option>Saúde para Todos</option>
+                </select><br><br>
+                <button type="submit">Enviar inscrição</button>
+            </form>
+        </section>
+    </main>
+    <img src="imagens/img.jpg.jpg" alt="pesssoas ajudando" class="center-img">
+
+    <footer>
+        <p>© 2025 Plataforma ONG+. Todos os direitos reservados.</p>
+    </footer>
+    <script src="voluntario.js" defer></script>
+</body>
+</html>
