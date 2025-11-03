@@ -1,57 +1,61 @@
-# projeto-site-3
+# projeto-site-4
 
 🧩 Descrição Geral
 
-O projeto site para ongs foi desenvolvido em etapas de evolução contínua, com o objetivo de criar uma plataforma web moderna, acessível e interativa para conectar voluntários, administradores e apoiadores.
+# 🌍 Projeto ONG - Aplicação Web Dinâmica e Acessível
 
-Ao longo das três fases, a aplicação passou de uma estrutura estática em HTML, para uma interface profissional com CSS3, e finalmente para uma aplicação dinâmica com JavaScript avançado, trazendo interatividade e melhor experiência ao usuário.
+## 📖 Descrição Geral
+Este projeto foi desenvolvido como parte das etapas acadêmicas da disciplina de **Desenvolvimento Web**, com o objetivo de evoluir uma interface estática em uma **aplicação web moderna, dinâmica e acessível**.
 
-🏗️ Etapas do Projeto
-🟧 Etapa I – Estruturação com HTML5
+A aplicação representa o site de uma **ONG**, com áreas dedicadas para **voluntários**, **administradores** e uma **página inicial interativa**.
 
-Criação da base do site utilizando HTML5 semântico;
+---
 
-Definição das páginas principais:
-index.html, admin.html, voluntario.html, formulario.html;
+## 🧩 Etapas de Desenvolvimento
 
-Organização dos conteúdos e seções da ONG;
+### 🔹 Etapa 1 — Estrutura HTML5
+- Criação da estrutura semântica do site (index, admin, voluntário, formulário).
+- Organização do conteúdo com tags semânticas como `<header>`, `<main>`, `<section>`, `<footer>`.
+- Implementação de formulários acessíveis e bem estruturados.
 
-Priorização da estrutura e acessibilidade do código.
+### 🔹 Etapa 2 — Estilização com CSS3
+- Criação de um design responsivo e profissional.
+- Uso de **media queries** para adaptação a diferentes tamanhos de tela.
+- Aplicação de **cores, tipografia e espaçamento** seguindo boas práticas de design.
+- Garantia de **acessibilidade visual** com contraste mínimo de 4.5:1.
 
-🧱 Resultado: uma página estática, bem estruturada e compatível com navegadores modernos.
+### 🔹 Etapa 3 — JavaScript Avançado
+- Implementação da **manipulação do DOM**.
+- Criação de um **sistema básico de SPA (Single Page Application)**.
+- Adição de **interatividade**: menus dinâmicos, validação de formulários e alternância de temas.
+- Organização do código na pasta `script/js`.
 
-🟩 Etapa II – Estilização com CSS3
+---
 
-Aplicação de CSS3 para transformar a estrutura HTML em uma interface visual profissional e responsiva;
+## ⚙️ Funcionalidades Principais
+- 🧭 Navegação dinâmica e interativa entre páginas.
+- 👨‍💻 Área exclusiva do administrador.
+- 🙋‍♀️ Área dedicada ao voluntário.
+- 📝 Formulário de cadastro funcional com validação.
+- 🌗 Modo escuro e versão de alto contraste acessível.
+- ♿ Acessibilidade completa com suporte a teclado e leitores de tela.
 
-Uso de layouts flexíveis e design adaptável a diferentes telas (desktop, tablet e celular);
+---
 
-Implementação de contrastes adequados, tipografia acessível e transições suaves;
+## 💻 Linguagens e Tecnologias Utilizadas
+| Tecnologia | Função no Projeto |
+|-------------|------------------|
+| **HTML5** | Estrutura semântica e organização do conteúdo. |
+| **CSS3** | Estilo visual, layout responsivo e design acessível. |
+| **JavaScript (ES6+)** | Interatividade, manipulação do DOM e sistema de SPA. |
+| **Git & GitHub** | Controle de versão, histórico de commits e hospedagem do código. |
+| **Markdown (.md)** | Documentação técnica e criação deste README. |
 
-Conformidade com os padrões de acessibilidade (WCAG 2.1).
+---
 
-🎨 Resultado: um site bonito, organizado e agradável para o usuário.
-
-🟦 Etapa III – Dinamismo com JavaScript Avançado
-
-Introdução de JavaScript (ES6+) para transformar a interface estática em uma aplicação web dinâmica e interativa;
-
-Implementação de recursos avançados:
-
-🔹 Manipulação do DOM
-
-Interações diretas com os elementos da página — alteração de textos, cores e mensagens de forma instantânea.
-
-🔹 Sistema de SPA (Single Page Application)
-
-Navegação entre seções sem recarregar a página inteira, tornando a experiência mais fluida e rápida.
-
-🔹 Templates JavaScript
-
-Criação automática de cards e componentes HTML baseados em dados, permitindo atualizações dinâmicas.
-
-🔹 Verificação de Consistência de Dados
-
-Sistema inteligente de validação de formulários com alertas visuais e mensagens de aviso ao usuário.
-
-⚙️ Resultado: um site interativo, com lógica e comportamento dinâmico, aproximando-se de uma aplicação web completa.
+## 🌐 Acessibilidade (WCAG 2.1 Nível AA)
+- Navegação completa por teclado (`tabindex` e `:focus-visible`).
+- Estrutura semântica adequada e hierarquia lógica de títulos.
+- Contraste mínimo de 4.5:1 para textos e botões.
+- Suporte total a leitores de tela (`aria-label`, `role` e descrições alternativas).
+- Versão de **alto contraste** e **modo escuro acessível**.
